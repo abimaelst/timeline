@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.timeline-container {
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.timeline {
+  position: relative;
+}
+
+.lane {
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+
+.timeline-item {
+  position: absolute;
+  background-color: #60a5fa;
+  color: white;
+  border-radius: 5px;
+  padding: 0 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
