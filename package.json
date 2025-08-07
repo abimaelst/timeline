@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "Airtable Timeline",
   "scripts": {
-    "start": "parcel src/index.html --open"
+    "start": "parcel src/index.html --open",
+    "test": "jest"
   },
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.28.0",
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "jest": "^30.0.5",
     "parcel": "^2.0.0"
   }
 }
